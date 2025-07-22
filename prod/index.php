@@ -25,7 +25,7 @@
     <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="http://www.starwarsgalaxy.co/ipadPortraitRetina.jpg" />
 
     <title>Star Wars: An Interactive Galactic Experience</title>
-	<meta name="description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built by nclud.">
+	<meta name="description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built with <3 by Srijit @ BitLords.">
     <link rel="canonical" href="http://www.starwarsgalaxy.co/">
     <link rel="author" href="humans.txt" />
 
@@ -65,17 +65,17 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@nclud">
     <meta name="twitter:title" content="Star Wars: An Interactive Galactic Experience">
-    <meta name="twitter:description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built by nclud.">
+    <meta name="twitter:description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built with <3 by Srijit @ BitLords.">
     <meta name="twitter:image:src" content="http://www.starwarsgalaxy.co/social.jpg">
 
     <meta itemprop="name" content="Star Wars: An Interactive Galactic Experience" />
-    <meta itemprop="description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built by nclud." />
+    <meta itemprop="description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built with <3 by Srijit @ BitLords." />
     <meta itemprop="image" content="http://www.starwarsgalaxy.co/social.jpg" />
 
     <meta property="og:title" content="Star Wars: An Interactive Galactic Experience" />
     <meta property="og:url" content="http://www.starwarsgalaxy.co/"/>
     <meta property="og:site_name" content="Star Wars: An Interactive Galactic Experience" />
-    <meta property="og:description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built by nclud." />
+    <meta property="og:description" content="Explore the worlds and systems of Star Wars, from the icy tundra of Hoth to the deserts of Tattooine, in this interactive experience built with <3 by Srijit @ BitLords." />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="http://www.starwarsgalaxy.co/social-facebook.jpg" />
 
@@ -116,7 +116,7 @@
 
 	<div id="load-text-container">
 		<span class="load-text">An Interactive Galactic Experience</span>
-		<span class="load-text-credit">Built By <a href="http://nclud.com/" target="_blank">nclud</a></span>
+		<span class="load-text-credit">Built By Srijit @ BitLords</span>	
 	</div>
 
 	<button id="load-button"></button>
@@ -163,18 +163,12 @@
 			</li>
 		</ul>
 
-		<div class="share-buttons">
-			<a href="https://twitter.com/intent/tweet?url=http://www.starwarsgalaxy.co&via=nclud&text=Star Wars - An Interactive Galactic Experience&original_referer=nclud" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');_gaq.push(['_trackEvent', 'twitter-share', 'clicked']);return false;" target="_blank" class="social-share">Share On Twitter</a>
-			<a href="https://www.facebook.com/sharer/sharer.php?u=http://www.starwarsgalaxy.co" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');_gaq.push(['_trackEvent', 'facebook-share', 'clicked']);return false;" target="_blank" class="social-share">Share On Facebook</a>
-		</div>
-
 		<span class="site-credits">
-			All information, characters, locations, and story © <a href="http://lucasfilm.com/" target="_blank">Lucasfilm</a> and <a href="http://disney.com/" target="_blank">Disney</a>. Star Wars: An Interactive Galactic Experience uses data from the <a href="http://swapi.co/" target="_blank">Star Wars API</a>. Source available on <a href="https://github.com/nclud/starwars-map" target="_blank">Github</a>.
+			All information, characters, locations, and story © <a href="http://lucasfilm.com/" target="_blank">Lucasfilm</a> and <a href="http://disney.com/" target="_blank">Disney</a>. Star Wars: An Interactive Galactic Experience uses data from the <a href="http://swapi.co/" target="_blank">Star Wars API</a>.
 		</span>
 
 		<div class="built-by">
-			<span class="built-by-text">Built By</span>
-			<a href="http://nclud.com/" target="_blank" class="built-link"><img src="/img/logo-nclud.svg"></a>
+			<span class="built-by-text">Built By Srijit @ BitLords</span>
 		</div>
 	</nav>
 	
