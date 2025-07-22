@@ -1,0 +1,9 @@
+node_modules
+gulpfile.js
+package.json
+package-lock.json
+*.log
+.git
+.gitignore
+Dockerfile
+README.md 
