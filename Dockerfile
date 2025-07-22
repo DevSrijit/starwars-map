@@ -1,14 +1,14 @@
-# Use the official Nginx image
-FROM nginx:alpine
+# Use the official PHP image with Apache
+FROM php:8.2-apache
 
-# Remove the default nginx static assets
-RUN rm -rf /usr/share/nginx/html/*
+# Copy your site into the Apache public directory
+COPY prod/ /var/www/html/
 
-# Copy your static site to the nginx public folder
-COPY prod/ /usr/share/nginx/html/
+# Enable Apache mod_rewrite if you need it (optional)
+RUN a2enmod rewrite
 
 # Expose port 80
 EXPOSE 80
 
-# Start Nginx
-CMD ["nginx", "-g", "daemon off;"] 
+# Start Apache in the foreground
+CMD ["apache2-foreground"]
